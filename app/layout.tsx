@@ -10,6 +10,9 @@ const pixelifySans = Pixelify_Sans({
 export const metadata: Metadata = {
   title: "rararana",
   description: "This is Rana's portofolio website",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
