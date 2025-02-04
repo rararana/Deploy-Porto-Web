@@ -23,7 +23,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className='p-3 sm:p-5 lg:p-12'>
-          <h1 className='text-[#D04671] mb-1 sm:text-lg md:text-xl lg:text-3xl'>Stuff I've Done</h1>
+          <h1 className='text-[#D04671] mb-1 sm:text-lg md:text-xl lg:text-3xl'>Stuff I&apos;ve Done</h1>
           <p className='text-[#D04671] text-[9px] leading-tight text-justify sm:text-xs lg:text-base lg:mt-3'>
           In high school, competing in the <span className='underline decoration-1 font-bold'>National Informatics Olympiad</span> sparked my love for 
           competitive programming. Beyond that, I&apos;m passionate about game development, and my 
