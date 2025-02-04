@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image"
 
 const HomePage = () => {
   return (
@@ -25,10 +26,10 @@ const HomePage = () => {
           <h1 className='text-[#D04671] mb-1 sm:text-lg md:text-xl lg:text-3xl'>Stuff I've Done</h1>
           <p className='text-[#D04671] text-[9px] leading-tight text-justify sm:text-xs lg:text-base lg:mt-3'>
           In high school, competing in the <span className='underline decoration-1 font-bold'>National Informatics Olympiad</span> sparked my love for 
-          competitive programming. Beyond that, I'm passionate about game development, and my 
-          friends and I from the GIM student organization created <span className='underline decoration-1 font-bold'>Kil's Adventure</span>, a project I'm incredibly proud of.
+          competitive programming. Beyond that, I&apos;m passionate about game development, and my 
+          friends and I from the GIM student organization created <span className='underline decoration-1 font-bold'>Kil&apos;s Adventure</span>, a project I&apos;m incredibly proud of.
           <br /><br />
-          I've also had a knack for design since childhood, which led me to become <span className='underline decoration-1 font-bold'>Head of the Design Division for ITB JTR 2025.</span>
+          I&apos;ve also had a knack for design since childhood, which led me to become <span className='underline decoration-1 font-bold'>Head of the Design Division for ITB JTR 2025.</span>
           <br /><br />
           Alongside my creative pursuits, I enjoy teaching and have worked as a <span className='underline decoration-1 font-bold'>tutor</span> for introductory computing and a <span className='underline decoration-1 font-bold'>practicum assistant</span> for
            computational thinking practicums. I thrive on exploring diverse passions and challenges!
@@ -45,7 +46,7 @@ const HomePage = () => {
           </div>
           <div className='flex-1 mx-0.5 px-1.5 py-0.5 bg-[#FFFFFE] border-[1px] lg:border-2 border-[#37569A] text-[#365eb6] rounded text-[8px] lg:text-xs'>https://about.me</div>
           <div className="w-4 h-4 md:w-[18px] md:h-[18px] lg:w-[24px] lg:h-[24px] border lg:border-2 border-[#37569A] rounded bg-[#FFFFFE] flex justify-center items-center">
-          <img src="/restartblue.png" className="w-3 h-3 md:w-[14px] md:h-[14px] lg:w-4 lg:h-4" />
+          <img alt="" src="/restartblue.png" className="w-3 h-3 md:w-[14px] md:h-[14px] lg:w-4 lg:h-4" />
           </div>
         </div>
         <div className='p-3 sm:p-5 lg:p-10'>
@@ -72,20 +73,20 @@ const HomePage = () => {
         <div className='p-3 sm:p-5 lg:p-10'>
           <h1 className='text-[#C12E5C] mb-1 sm:text-lg md:text-xl lg:text-3xl'>Me, elsewhere</h1>
           <p className='text-[#C12E5C] text-[9px] leading-tight text-justify sm:text-xs lg:text-base'>
-          If you're looking for me on other platforms or social media, just follow the link below. Let's connect!
+          If you&apos;re looking for me on other platforms or social media, just follow the link below. Let&apos;s connect!
           </p>
           <div className='flex gap-2 mt-2 lg:mt-6'>
-            <a href='https://www.instagram.com/ranashr_/' target='_blank'><div><img src='/insta.png' className='bg-[#FF98B1] hover:bg-[#FFAEC2] rounded-[5px] w-5 h-5 md:w-6 md:h-6 md:rounded-md lg:w-8 lg:h-8 lg:rounded-lg'/></div></a>
-            <a href='https://x.com/ritesaph' target='_blank'><div><img src='/twit.png' className='bg-[#FF98B1] hover:bg-[#FFAEC2] rounded-[4.5px] w-5 h-5 md:w-6 md:h-6 md:rounded-[5.5px] lg:w-8 lg:h-8 lg:rounded-[7px]'/></div></a>
-            <a href='https://www.linkedin.com/in/ranashahira-reztaputri-1bb0a8283/' target='_blank'><div><img src='/link.png' className='bg-[#FF98B1] hover:bg-[#FFAEC2] rounded-[5px] w-[21px] h-[21px] md:w-[25px] md:h-[25px] md:rounded-md lg:w-[33px] lg:h-[33px] lg:rounded-lg'/></div></a>
-            <a href='mailto:ranashahira.rez@gmail.com'><div><img src='/mail.png' className='bg-[#FF98B1] hover:bg-[#FFAEC2] rounded-[4.6px] w-5 h-5 md:w-6 md:h-6 md:rounded-[5.6px] lg:w-8 lg:h-8 lg:rounded-[7.2px]'/></div></a>
+            <a href='https://www.instagram.com/ranashr_/' target='_blank'><div><img alt="" src='/insta.png' className='bg-[#FF98B1] hover:bg-[#FFAEC2] rounded-[5px] w-5 h-5 md:w-6 md:h-6 md:rounded-md lg:w-8 lg:h-8 lg:rounded-lg'/></div></a>
+            <a href='https://x.com/ritesaph' target='_blank'><div><img alt="" src='/twit.png' className='bg-[#FF98B1] hover:bg-[#FFAEC2] rounded-[4.5px] w-5 h-5 md:w-6 md:h-6 md:rounded-[5.5px] lg:w-8 lg:h-8 lg:rounded-[7px]'/></div></a>
+            <a href='https://www.linkedin.com/in/ranashahira-reztaputri-1bb0a8283/' target='_blank'><div><img alt="" src='/link.png' className='bg-[#FF98B1] hover:bg-[#FFAEC2] rounded-[5px] w-[21px] h-[21px] md:w-[25px] md:h-[25px] md:rounded-md lg:w-[33px] lg:h-[33px] lg:rounded-lg'/></div></a>
+            <a href='mailto:ranashahira.rez@gmail.com'><div><img alt="" src='/mail.png' className='bg-[#FF98B1] hover:bg-[#FFAEC2] rounded-[4.6px] w-5 h-5 md:w-6 md:h-6 md:rounded-[5.6px] lg:w-8 lg:h-8 lg:rounded-[7.2px]'/></div></a>
           </div>
         </div>
       </div>
       </div>
       <div className="mt-32 sm:mt-60 md:mt-32 lg:mt-56 bottom-0 left-0 w-full overflow-hidden whitespace-nowrap border-y-2 border-[#6F9CF1] bg-[#B3CDFE] h-fit py-[1px] lg:py-1 hover:bg-[#6F9CF1]">
       <div className="inline-block animate-marquee text-xs lg:text-base text-[#5e8bdf] hover:text-[#c4d9ff]">
-        • LISTENING TO: THE GOOD WHALE, FROM SERIAL PRODUCTIONS AND THE NEW YORK TIMES • PLAYING: STARDEW VALLEY, BALDUR'S GATE 3, THE SIMS 4 •
+        • LISTENING TO: THE GOOD WHALE, FROM SERIAL PRODUCTIONS AND THE NEW YORK TIMES • PLAYING: STARDEW VALLEY, BALDUR&apos;S GATE 3, THE SIMS 4 •
       </div>
       </div>
     </div>
